@@ -36,14 +36,13 @@ echo "<script>window.location.href ='index.php'</script>";
         <div id="nav-head" class="header-nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2 col-md-3  col-sm-12" style="color:#000;font-weight:bold; font-size:42px; margin-top: 1% !important;">HMS
+                    <div class="col-lg-2 col-md-3  col-sm-12" style="color:#000;font-weight:bold; font-size:42px; margin-top: 1% !important;"><a href="#">HMS</a>
                        <a data-toggle="collapse" data-target="#menu" href="#menu" ><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
                     </div>
                     <div id="menu" class="col-lg-8 col-md-9 d-none d-md-block nav-item">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#services">Services</a></li>
                             <li><a href="#about_us">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
                             <li><a href="#gallery">Gallery</a></li>
                             <li><a href="#contact_us">Contact Us</a></li>
                             <li><a href="#logins">Logins</a></li>  
@@ -121,7 +120,7 @@ echo "<script>window.location.href ='index.php'</script>";
             </div>
             <div class="col-sm-12 blog-cont">
                 <div class="row no-margin">
-                    <div class="col-sm-4 blog-smk">
+                    <div class="col-sm-6 blog-smk">
                         <div class="blog-single">
 
                                 <img src="assets/images/patient.jpg" alt="">
@@ -134,7 +133,7 @@ echo "<script>window.location.href ='index.php'</script>";
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 blog-smk">
+                    <div class="col-sm-6 blog-smk">
                         <div class="blog-single">
 
                                 <img src="assets/images/doctor.jpg" alt="">
@@ -148,7 +147,7 @@ echo "<script>window.location.href ='index.php'</script>";
                         </div>
                     </div>
                     
-                    <div class="col-sm-4 blog-smk">
+                    <!-- <div class="col-sm-4 blog-smk">
                         <div class="blog-single">
 
                                 <img src="assets/images/admin.jpg" alt="">
@@ -161,7 +160,7 @@ echo "<script>window.location.href ='index.php'</script>";
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     
                     
                     
@@ -415,9 +414,7 @@ while ($row=mysqli_fetch_array($ret)) {
     </footer>
     <div class="copy">
             <div class="container">
-         Hospital Management System
-                
-     
+                Hospital Management System
             </div>
 
         </div>
