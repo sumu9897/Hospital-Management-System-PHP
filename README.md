@@ -8,37 +8,39 @@
 git clone https://github.com/sumu9897/Hospital-Management-System-PHP.git
 
 ```
-
+### OR
 ### 2. Download Zip File
 Download the zip file from the repository.
 
-### 3. Extract and Copy Files
+### 2. Extract and Copy Files
 Extract the downloaded zip file and copy the "hospital" folder.
 
-### 4. Paste in Root Directory
+### 3. Paste in Root Directory
 Paste the "hospital" folder inside your root directory:
 
 For XAMPP: xampp/htdocs
 For WAMP: wamp/www
 For LAMP: var/www/html
-### 5. Database Setup
+### 4. Database Setup
 Open PHPMyAdmin (http://localhost/phpmyadmin)
 Create a new database named hms
 Import the SQL file (hms.sql) provided in the "SQL file" folder within the zip package.
 Usage
 Access the application by running the following URL in your browser:
-
-plaintext
-Copy code
+```bash
 http://localhost/hospital
-###Login Details
-####Admin:
+
+```
+
+
+### Login Details
+#### Admin:
 Username: admin
 Password: Admin@123
-####Patient:
+#### Patient:
 Username: rahat@gmail.com
 Password: Test@123
-####Doctor:
+#### Doctor:
 Username: shahin@hms.com
 Password: Test@123
 Support and Contact
