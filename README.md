@@ -35,13 +35,14 @@ http://localhost/hospital
 
 ### Login Details
 #### Admin:
-Username: admin
+Username: admin<br>
 Password: Admin@123
 #### Patient:
-Username: rahat@gmail.com
+Username: rahat@gmail.com<br>
 Password: Test@123
 #### Doctor:
-Username: shahin@hms.com
-Password: Test@123
-Support and Contact
+Username: shahin@hms.com<br>
+Password: Test@123<br>
+
+Support and Contact<br>
 For any issues or inquiries, please open an issue on GitHub.
