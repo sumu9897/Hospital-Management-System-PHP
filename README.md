@@ -7,6 +7,8 @@
 ```bash
 git clone https://github.com/sumu9897/Hospital-Management-System-PHP.git
 
+```
+
 ### 2. Download Zip File
 Download the zip file from the repository.
 
